@@ -9,20 +9,23 @@
   </head>
   <body>
       <div class="container">
+        <h1>To-do List</h1>
         <div class="row">
-          <form id="userInput">
+
+          <form id="userInput" class="well">
             <div class="form-group">
-              <input type="text" class="form-control" id="taskItem">
               <label for="taskItem">Task Items:</label>
+              <input type="text" class="form-control" id="taskItem" autofocus>
             </div>
 
             <button type="submit" class="btn">Get it done!</button>
           </form>
-          <div id="listToDo">
-            <ol>
-              
-            </ol>
-          </div>
+          <form id="deleteList">
+            <div class="form-group" id="itemList">
+
+            </div>
+            <button type="submit" class="btn btn-warning">Delete!</button>
+          </form>
         </div>
       </div>
   </body>
